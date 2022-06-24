@@ -15,13 +15,22 @@ Travelling Salesman Problem system, made in functional programming Javascript wi
 The Travelling Salesman Problem also known as TSP is an NP-hard problem in combinatorial optimization.  
 Imagine a set of city disposed on a map, you have a set of salesman (population) and they must all go to every city in
 the least amount of time/distance.  
+
 The optimization solution is the one where a salesman goes through all the cities with the least distance or/and time.
 
-In the image below you can see a representation of the tsp problem with cities named A, B, C, D. Going from a city to
+In the image below you can see a representation of the tsp problem with cities named A, B, C. Going from a city to
 another take more or less time than other depending on the distance.
+<!-- 
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/59691442/165635831-5bfc72b5-0dd3-4a9f-afb0-b5ffd402ee88.png" alt="tspExampleImage" style="height:300px"/>
+</p> -->
+
+<!-- <p align="center">
+    <img src="https://user-images.githubusercontent.com/59691442/165635831-5bfc72b5-0dd3-4a9f-afb0-b5ffd402ee88.png" alt="tspExampleImage" style="height:300px"/>
+</p> -->
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/59691442/165635831-5bfc72b5-0dd3-4a9f-afb0-b5ffd402ee88.png" alt="tspExampleImage" style="height:400px"/>
+    <img src="https://user-images.githubusercontent.com/59691442/175607984-a9315d81-0c7e-4a78-9b9d-9996fff09479.png" alt="tspExampleImage" style="height:300px"/>
 </p>
 
 ### App description/implementation
@@ -249,15 +258,6 @@ The project is set with GitHub Actions that will test:
 
 If one of those test failed a mail is sent to the person who tried to merge its code from the staging to main branch.
 
-## Authors
-
-- Quentin MOREL (<https://github.com/Im-Rises/>)
-- Clément REIFFERS (<https://github.com/clementreiffers>)
-
-## Special thanks
-
-- Maxime ROBIN (<https://github.com/Waxo>)
-
 ## Documentations
 
 <https://en.wikipedia.org/wiki/Travelling_salesman_problem>  
@@ -291,3 +291,23 @@ Prettier (code formatter):
 
 Editor config (normalize the IDE for the project):  
 <https://EditorConfig.org>
+
+## Contributors
+
+Quentin Morel :
+
+- @Im-Rises
+- <https://github.com/Im-Rises>
+
+Clément Reiffers :
+
+- @clementreiffers
+- <https://github.com/clementreiffers>
+
+[![GitHub contributors](https://contrib.rocks/image?repo=im-rises/travelling-salesman-problem-ga)](https://github.com/im-rises/travelling-salesman-problem-ga/graphs/contributors)
+
+## Special thanks
+
+Maxime ROBIN :
+- @Waxo
+- <https://github.com/Waxo>
