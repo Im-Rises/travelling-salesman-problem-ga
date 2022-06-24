@@ -249,15 +249,6 @@ The project is set with GitHub Actions that will test:
 
 If one of those test failed a mail is sent to the person who tried to merge its code from the staging to main branch.
 
-## Authors
-
-- Quentin MOREL (<https://github.com/Im-Rises/>)
-- Clément REIFFERS (<https://github.com/clementreiffers>)
-
-## Special thanks
-
-- Maxime ROBIN (<https://github.com/Waxo>)
-
 ## Documentations
 
 <https://en.wikipedia.org/wiki/Travelling_salesman_problem>  
@@ -291,3 +282,23 @@ Prettier (code formatter):
 
 Editor config (normalize the IDE for the project):  
 <https://EditorConfig.org>
+
+## Contributors
+
+Quentin Morel :
+
+- @Im-Rises
+- <https://github.com/Im-Rises>
+
+Clément Reiffers :
+
+- @clementreiffers
+- <https://github.com/clementreiffers>
+
+[![GitHub contributors](https://contrib.rocks/image?repo=im-rises/travelling-salesman-problem-ga)](https://github.com/im-rises/travelling-salesman-problem-ga/graphs/contributors)
+
+## Special thanks
+
+Maxime ROBIN :
+- @Waxo
+- <https://github.com/Waxo>
