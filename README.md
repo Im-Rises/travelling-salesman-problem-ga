@@ -246,7 +246,7 @@ Warning:
 *To easily achieve the code format test, you should use prettier for xo code-formatting that is already set with some
 parameters in the project*
 
-## GitActions
+## GitHub Actions
 
 [![Node.js CI test and code-style](https://github.com/Im-Rises/travelling-salesman-problem/actions/workflows/node.js.yml/badge.svg)](https://github.com/Im-Rises/travelling-salesman-problem/actions/workflows/node.js.yml)
 
