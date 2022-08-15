@@ -61,7 +61,7 @@ Step order:
 To run the app, you need to install node:  
 <https://nodejs.org/en/download/>
 
-Once installed, with your terminal go to the folder to the root of the project and run the following commande:
+Once installed, with your terminal go to the folder to the root of the project and run the following command:
 
 If you're using npm:
 
@@ -243,7 +243,7 @@ yarn run code-style
 ```
 
 Warning:  
-*To easily achieve the code format test, you should use prettier for xo codeformatting that is already set with some
+*To easily achieve the code format test, you should use prettier for xo code-formatting that is already set with some
 parameters in the project*
 
 ## GitActions
@@ -283,7 +283,7 @@ Chai (assertion library):
 Mocha (test framework):  
 <https://mochajs.org>
 
-Xo (code formater wraper):  
+Xo (code formatter wrapper):  
 <https://github.com/xojs/xo>
 
 Prettier (code formatter):  
