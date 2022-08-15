@@ -292,6 +292,12 @@ Prettier (code formatter):
 Editor config (normalize the IDE for the project):  
 <https://EditorConfig.org>
 
+## Special thanks
+
+Maxime ROBIN :
+- @Waxo
+- <https://github.com/Waxo>
+
 ## Contributors
 
 Quentin Morel :
@@ -304,10 +310,4 @@ Clément Reiffers :
 - @clementreiffers
 - <https://github.com/clementreiffers>
 
-[![GitHub contributors](https://contrib.rocks/image?repo=im-rises/travelling-salesman-problem-ga)](https://github.com/im-rises/travelling-salesman-problem-ga/graphs/contributors)
-
-## Special thanks
-
-Maxime ROBIN :
-- @Waxo
-- <https://github.com/Waxo>
+[![GitHub contributors](https://contrib.rocks/image?repo=im-rises/travelling-salesman-problem-ga&max=2)](https://github.com/im-rises/travelling-salesman-problem-ga/graphs/contributors)
