@@ -1,4 +1,4 @@
-# Travelling Salesman Problem
+# travelling-salesman-problem-ga
 
 <p align="center">
     <img src="https://user-images.githubusercontent.com/59691442/175607984-a9315d81-0c7e-4a78-9b9d-9996fff09479.png" alt="tspExampleImage" style="height:300px"/>
@@ -291,7 +291,7 @@ Maxime ROBIN :
 - @Waxo
 - <https://github.com/Waxo>
 
-## Contributors
+## Authors
 
 Quentin Morel :
 
