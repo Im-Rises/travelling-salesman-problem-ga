@@ -1,0 +1,39 @@
+# This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+
+name: Node.js CI test and code-style
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: ✨ Checkout ✨
+        uses: actions/checkout@v3
+
+      - name: ⚙️ Setting up node ⚙️
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+
+      - name: ⬇️ Installing packages ⬇️
+        run: npm install
+
+      - name: 🔎 Verifying code style 🔎
+        run: npm run code-style
+
+      - name: ⚡ Testing ⚡
+        run: npm run test
+
+      - name: ⬆️ Uploading to NPM ⬆️
+        run: |
+          git config --global user.email "reiffersclement@gmail.com"
+          git config --global user.name "clementreiffers"
+          npm config set '//registry.npmjs.org/:_authToken' ${{ secrets.NPM_TOKEN }}
+          npm publish

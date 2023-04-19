@@ -1,25 +1,10 @@
-# travelling-salesman-problem-ga
+# Travelling Salesman Problem
 
-<p align="center">
-    <img src="https://user-images.githubusercontent.com/59691442/175607984-a9315d81-0c7e-4a78-9b9d-9996fff09479.png" alt="tspExampleImage" style="height:300px"/>
-</p>
-
-<!-- 
-<p align="center">
-    <img src="https://user-images.githubusercontent.com/59691442/165635831-5bfc72b5-0dd3-4a9f-afb0-b5ffd402ee88.png" alt="tspExampleImage" style="height:300px"/>
-</p> -->
-
-<!-- <p align="center">
-    <img src="https://user-images.githubusercontent.com/59691442/165635831-5bfc72b5-0dd3-4a9f-afb0-b5ffd402ee88.png" alt="tspExampleImage" style="height:300px"/>
-</p> -->
-
-## Description
-
-<p align="center">
-  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="javascriptLogo" style="height:50px;"/>
-  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="nodejsLogo" style="height:50px;"/>
-  <img src="https://ramdajs.com/ramdaFilled_200x235.png" alt="ramdajsLogo" style="background-color:#c5d0da; height:50px;"/>
-</p>
+![https://developer.mozilla.org/fr/docs/Web/JavaScript](docs/js.svg)
+![https://nodejs.dev/en/](docs/node.svg)
+![https://gulpjs.com](docs/gulp.svg)
+![https://mochajs.org](docs/mocha.svg)
+[![Node.js CI test and code-style](https://github.com/clementreiffers/travelling_salesman_problem/actions/workflows/node.js.yml/badge.svg)](https://github.com/clementreiffers/travelling_salesman_problem/actions/workflows/node.js.yml)
 
 Travelling Salesman Problem system, made in functional programming Javascript with Ramda.
 
@@ -60,7 +45,7 @@ The Travelling Salesman Problem can find the most optimized path to join all cit
 
 > **WARNING**
 > This code below shows how it works, it will be well printed by seeing this 
-> [GitHub Repository](https://github.com/Im-Rises/travelling-salesman-problem-ga)
+> [GitHub Repository](https://github.com/clementreiffers/travelling-salesman-problem)
 
 ```mermaid
 flowchart LR
@@ -258,7 +243,7 @@ You can test the format code of the project by typing the following command:
 
 ## GitActions
 
-[![Node.js CI test and code-style](https://github.com/Im-Rises/travelling-salesman-problem-ga/actions/workflows/node.js.yml/badge.svg)](https://github.com/Im-Rises/travelling-salesman-problem-ga/actions/workflows/node.js.yml)
+[![Node.js CI test and code-style](https://github.com/clementreiffers/travelling_salesman_problem/actions/workflows/node.js.yml/badge.svg)](https://github.com/clementreiffers/travelling_salesman_problem/actions/workflows/node.js.yml)
 
 The project is set with GitHub Actions that will test:
 
@@ -282,7 +267,7 @@ the staging to main branch.
 
 ### Documentations
 
-- [What is Travelling Salesman Problem?](https://en.wikipedia.org/wiki/travelling_salesman_problem/)
+- [What is Travelling Salesman Problem?](https://en.wikipedia.org/wiki/Travelling_salesman_problem)
 - [Understand what is a genetic algorithm](https://www.youtube.com/watch?v=ncj_hBfRt-Y>)
 
 ### Libraries
@@ -302,4 +287,4 @@ the staging to main branch.
 
 - [GitHub Badges](https://github.com/aleen42/badges)
 
-[![GitHub contributors](https://contrib.rocks/image?repo=Im-Rises/travelling-salesman-problem-ga&max=2)](https://github.com/Im-Rises/travelling-salesman-problem-ga/graphs/contributors)
+[![GitHub contributors](https://contrib.rocks/image?repo=clementreiffers/travelling-salesman-problem&max=2)](https://github.com/clementreiffers/travelling-salesman-problem/graphs/contributors)
