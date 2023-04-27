@@ -21,30 +21,31 @@
   <img src="https://ramdajs.com/ramdaFilled_200x235.png" alt="ramdajsLogo" style="background-color:#c5d0da; height:50px;"/>
 </p>
 
-Travelling Salesman Problem system, made in functional programming Javascript with Ramda using Node.js.
+Travelling Salesman Problem system, made in functional programming Javascript with Ramda.
 
-## Table of contents
+## Overview
 
 1. [Description](#description)
-2. [Travelling Salesman Problem](#travelling-salesman-problem)
-3. [App Description/Implementation](#app-descriptionimplementation)
-4. [Installation](#installation)
-5. [Start the App](#start-the-app)
-6. [Output Example](#output-example)
-7. [Project Architecture](#project-architecture)
-8. [Developer Tools](#developers-tools)
-   1. [Auto Run Project](#auto-run-project)
-   2. [Unit Test](#unit-test)
-   3. [Code Format Test](#code-format-test)
-9. [Git Actions](#gitactions)
+    1. [Travelling Salesman Problem](#travelling-salesman-problem)
+    2. [App Description/Implementation](#app-descriptionimplementation)
+2. [Installation](#installation)
+3. [Start the App](#start-the-app)
+4. [Output Example](#output-example)
+5. [Project Architecture](#project-architecture)
+6. [Developer Tools](#developers-tools)
+    1. [Auto Run Project](#auto-run-project)
+    2. [Unit Test](#unit-test)
+    3. [Code Format Test](#code-format-test)
+7. [Git Actions](#gitactions)
+8. [Authors](#authors)
+9. [Special Thanks](#special-thanks)
 10. [Links](#links)
     1. [Documentations](#documentations)
     2. [Libraries](#libraries)
-    3. [Other](#other)
-11. [Special Thanks](#special-thanks)
-12. [Authors](#authors)
 
-## Travelling Salesman Problem
+## Description
+
+### Travelling Salesman Problem
 
 The Travelling Salesman Problem also known as TSP is an NP-hard problem in combinatorial optimization.  
 Imagine a set of city disposed on a map, you have a set of salesman (population) and they must all
@@ -56,6 +57,10 @@ In the schema below you can see an example with some cities in Europe (Paris, Ma
 Going from a city to another take more or less time than other depending on the distance.
 
 The Travelling Salesman Problem can find the most optimized path to join all cities.
+
+> **WARNING**
+> This code below shows how it works, it will be well printed by seeing this 
+> [GitHub Repository](https://github.com/Im-Rises/travelling-salesman-problem-ga)
 
 ```mermaid
 flowchart LR
@@ -85,7 +90,7 @@ linkStyle 1 stroke:#DD0000,stroke-width:5
 
 ```
 
-## App description/implementation
+### App description/implementation
 
 To implement the travelling salesman problem we use genetic algorithm.
 
@@ -218,7 +223,9 @@ The unit test scripts are a set of scripts to verify the good behaviour of some 
 
 ## Developers tools
 
-The project is set with some tools like auto run (gulp), unit test ([Chai](https://www.chaijs.com/), [Mocha](https://mochajs.org)), code formatter ([Xo](https://github.com/xojs/xo)/[Prettier](https://prettier.io)).
+The project is set with some tools like auto run (gulp), unit
+test ([Chai](https://www.chaijs.com/), [Mocha](https://mochajs.org)), code
+formatter ([Xo](https://github.com/xojs/xo)/[Prettier](https://prettier.io)).
 
 ### Auto run project
 
@@ -228,7 +235,7 @@ To install gulp type the following command:
 
 To start it types in the root folder the command: `gulp`
 
-Each time a js script is modified and save, it will run the index.js file.  
+Each time a js script is modified and save, it will run the example.js file.  
 The gulp file is written in js.
 
 ### Unit test
@@ -244,13 +251,14 @@ Take note that GitHub verify the correct work of the tests.
 You can test the format code of the project by typing the following command:
 `npm run code-style` or `yarn run code-style`
 
->**Warning**
->To easily achieve the code format test, you should use [Prettier](https://prettier.io) for [Xo (code formater wraper)](https://github.com/xojs/xo) code-formatting that is already set with some
-parameters in the project
+> **Warning**
+> To easily achieve the code format test, you should use [Prettier](https://prettier.io)
+> for [Xo (code formater wraper)](https://github.com/xojs/xo) code-formatting that is already set with some
+> parameters in the project
 
 ## GitActions
 
-[![Node.js CI test and code-style](https://github.com/clementreiffers/travelling_salesman_problem/actions/workflows/node.js.yml/badge.svg)](https://github.com/clementreiffers/travelling_salesman_problem/actions/workflows/node.js.yml)
+[![Node.js CI test and code-style](https://github.com/Im-Rises/travelling-salesman-problem-ga/actions/workflows/node.js.yml/badge.svg)](https://github.com/Im-Rises/travelling-salesman-problem-ga/actions/workflows/node.js.yml)
 
 The project is set with GitHub Actions that will test:
 
@@ -261,11 +269,20 @@ The project is set with GitHub Actions that will test:
 If one of those test failed a mail is sent to the person who tried to merge its code from
 the staging to main branch.
 
+## Authors
+
+- [Clément Reiffers](https://github.com/clementreiffers)
+- [Quentin Morel](https://github.com/Im-Rises)
+
+## Special thanks
+
+- [Maxime Robin](https://github.com/Waxo)
+
 ## Links
 
 ### Documentations
 
-- [What is Travelling Salesman Problem?](https://en.wikipedia.org/wiki/Travelling_salesman_problem)
+- [What is Travelling Salesman Problem?](https://en.wikipedia.org/wiki/travelling_salesman_problem/)
 - [Understand what is a genetic algorithm](https://www.youtube.com/watch?v=ncj_hBfRt-Y>)
 
 ### Libraries
@@ -285,22 +302,4 @@ the staging to main branch.
 
 - [GitHub Badges](https://github.com/aleen42/badges)
 
-## Special thanks
-
-Maxime ROBIN :
-- @Waxo
-- <https://github.com/Waxo>
-
-## Authors
-
-Quentin Morel :
-
-- @Im-Rises
-- <https://github.com/Im-Rises>
-
-Clément Reiffers :
-
-- @clementreiffers
-- <https://github.com/clementreiffers>
-
-[![GitHub contributors](https://contrib.rocks/image?repo=im-rises/travelling-salesman-problem-ga&max=2)](https://github.com/im-rises/travelling-salesman-problem-ga/graphs/contributors)
+[![GitHub contributors](https://contrib.rocks/image?repo=Im-Rises/travelling-salesman-problem-ga&max=2)](https://github.com/Im-Rises/travelling-salesman-problem-ga/graphs/contributors)

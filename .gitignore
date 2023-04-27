@@ -3,7 +3,6 @@
 *.idea/
 node_modules/
 [Vv]ideos/
-trash/
 
 
 # Created by https://www.toptal.com/developers/gitignore/api/jetbrains+all,node
@@ -226,6 +225,7 @@ dist
 .yarn/unplugged
 .yarn/build-state.yml
 .yarn/install-state.gz
+yarn.lock
 .pnp.*
 
 ### Node Patch ###
@@ -234,7 +234,6 @@ dist
 
 # Optional stylelint cache
 
-# SvelteKit build / generate output
-.svelte-kit
 
 # End of https://www.toptal.com/developers/gitignore/api/jetbrains+all,node
+
